@@ -1,0 +1,70 @@
+
+project = 'hand-demo'
+
+model_folder = '/Users/nathanieltse/Desktop/SA_track-nate-2023-07-20' 
+
+nesting = 1
+video_extension = 'avi'
+
+[calibration]
+# checkerboard / charuco / aruco
+board_type = "charuco"
+
+# width and height of grid
+board_size = [10, 7]
+
+# number of bits in the markers, if aruco/charuco
+board_marker_bits = 4
+
+# number of markers in dictionary, if aruco/charuco
+board_marker_dict_number = 50
+
+# length of marker side
+board_marker_length = 0.7 # cm
+
+# If aruco, length of marker separation
+# board_marker_separation_length = 1 # mm
+
+# If charuco or checkerboard, square side length
+board_square_side_length = 0.9 # cm
+
+animal_calibration = false
+
+fisheye = true
+
+[labeling]
+scheme = [
+   ["nose", "neck", "half_neck", "center", "half_tailbase", "tailbase", "tailtip"],
+   ["l_ear_mousper", "nose"],
+   ["r_ear_mouseper", "nose"],
+   ["LBack_paw", "LBack_root", "half_tailbase"],
+   ["RBack_paw", "RBack_root", "half_tailbase"],
+   ["RF_paw", "RF_root", "half_neck"],
+   ["LF_paw", "LF_root", "half_neck"]
+ ]
+
+[triangulation]
+triangulate = true
+cam_regex = '_cam([0-9])'
+cam_align = "2"
+ransac = false
+optim = true
+constraints = [
+   ["nose", "neck"], ["neck", "half_neck"], ["half_neck", "center"],
+   ["center", "half_tailbase"], ["half_tailbase", "tailbase"], ["tailbase", "tailtip"],
+   ["LBack_paw", "LBack_root"], ["RBack_paw", "RBack_root"],
+   ["LF_paw", "LF_root"], ["RF_paw", "RF_root"],
+   ["LBack_root", "half_tailbase"], ["RBack_root", "half_tailbase"],
+   ["LF_root", "half_neck"], ["RF_root", "half_neck"],
+   ["l_ear_mousper", "nose"], ["r_ear_mouseper", "nose"]
+]
+scale_smooth = 2
+scale_length = 5
+scale_length_weak = 2
+reproj_error_threshold = 2
+score_threshold = 0.8
+n_deriv_smooth = 2
+
+[manual_verification]
+# true / false
+manually_verify = false

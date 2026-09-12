@@ -1,0 +1,70 @@
+Observation id,11-7-24_CARD9Cre_672,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,data/example_mouse.avi,,,,,,,
+,,,,,,,,
+Observation date,1/24/25 16:01,,,,,,,
+,,,,,,,,
+Description,,,,,,,,
+,,,,,,,,
+Time offset (s),0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Behavioral category,Comment,Status
+39.854,data/example_mouse.avi,596.13,30,,rear,,,START
+41.879,data/example_mouse.avi,596.13,30,,rear,,,STOP
+72.533,data/example_mouse.avi,596.13,30,,rear,,,START
+76.433,data/example_mouse.avi,596.13,30,,rear,,,STOP
+80.233,data/example_mouse.avi,596.13,30,,scratch w hind leg,,,START
+80.767,data/example_mouse.avi,596.13,30,,scratch w hind leg,,,STOP
+86.27,data/example_mouse.avi,596.13,30,,rear,,,START
+89.7,data/example_mouse.avi,596.13,30,,rear,,,STOP
+104.467,data/example_mouse.avi,596.13,30,,rear,,,START
+107.233,data/example_mouse.avi,596.13,30,,rear,,,STOP
+236.433,data/example_mouse.avi,596.13,30,,body groom,,,START
+236.533,data/example_mouse.avi,596.13,30,,scratch w hind leg,,,START
+241.467,data/example_mouse.avi,596.13,30,,scratch w hind leg,,,STOP
+241.7,data/example_mouse.avi,596.13,30,,biting rear leg,,,START
+270.146,data/example_mouse.avi,596.13,30,,body groom,,,STOP
+270.2,data/example_mouse.avi,596.13,30,,biting rear leg,,,STOP
+272.233,data/example_mouse.avi,596.13,30,,face groom,,,START
+286.833,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+286.9,data/example_mouse.avi,596.13,30,,body groom,,,START
+288,data/example_mouse.avi,596.13,30,,body groom,,,STOP
+288.2,data/example_mouse.avi,596.13,30,,face groom,,,START
+289.4,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+289.5,data/example_mouse.avi,596.13,30,,body groom,,,START
+291.733,data/example_mouse.avi,596.13,30,,body groom,,,STOP
+292.533,data/example_mouse.avi,596.13,30,,body groom,,,START
+332.5,data/example_mouse.avi,596.13,30,,body groom,,,STOP
+332.567,data/example_mouse.avi,596.13,30,,face groom,,,START
+339.933,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+340,data/example_mouse.avi,596.13,30,,scratch w hind leg,,,START
+342.6,data/example_mouse.avi,596.13,30,,scratch w hind leg,,,STOP
+342.633,data/example_mouse.avi,596.13,30,,face groom,,,START
+348.7,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+349.133,data/example_mouse.avi,596.13,30,,body groom,,,START
+350.5,data/example_mouse.avi,596.13,30,,body groom,,,STOP
+351.2,data/example_mouse.avi,596.13,30,,face groom,,,START
+352.9,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+353.267,data/example_mouse.avi,596.13,30,,body groom,,,START
+384.715,data/example_mouse.avi,596.13,30,,body groom,,,STOP
+385.482,data/example_mouse.avi,596.13,30,,face groom,,,START
+392.9,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+393.1,data/example_mouse.avi,596.13,30,,body groom,,,START
+397.833,data/example_mouse.avi,596.13,30,,body groom,,,STOP
+397.967,data/example_mouse.avi,596.13,30,,face groom,,,START
+398.767,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+398.867,data/example_mouse.avi,596.13,30,,body groom,,,START
+412.467,data/example_mouse.avi,596.13,30,,body groom,,,STOP
+425.133,data/example_mouse.avi,596.13,30,,rear,,,START
+427.433,data/example_mouse.avi,596.13,30,,rear,,,STOP
+549.733,data/example_mouse.avi,596.13,30,,face groom,,,START
+550.7,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+552.2,data/example_mouse.avi,596.13,30,,face groom,,,START
+561.2,data/example_mouse.avi,596.13,30,,face groom,,,STOP
+572.367,data/example_mouse.avi,596.13,30,,scratch w hind leg,,,START
+573.4,data/example_mouse.avi,596.13,30,,scratch w hind leg,,,STOP
