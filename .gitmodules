@@ -1,0 +1,12 @@
+[submodule "sync_gui"]
+	path = sync_gui
+	url = https://github.com/nattse/camera-sync.git
+[submodule "camera-sync"]
+	path = camera-sync
+	url = https://github.com/nattse/camera-sync.git
+[submodule "DeepLabCut"]
+	path = DeepLabCut
+	url = https://github.com/DeepLabCut/DeepLabCut.git
+[submodule "anipose"]
+	path = anipose
+	url = https://github.com/lambdaloop/anipose.git

@@ -613,7 +613,7 @@ def process(anipose_folder, filtered_data = True, strict_level = 'low', truncate
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--project', help='Path to a project folder', required=True)
-    parser.add_argument('--use_unfiltered', action='store_false', help='Set if you want to use unfiltered DLC tracking data', required=False)
+    parser.add_argument('--use_unfiltered', action='store_true', help='Set if you want to use unfiltered DLC tracking data', required=False)
     parser.add_argument('--strict', action='store_true', help='Lower the threshold to detect triangulation errors', required=False)
     parser.add_argument('--truncate', action='store_true', help='Only use for testing params; creates shortened tracking files for faster triangulation', required=False)
     parser.add_argument('--overwrite', action='store_true', help='Allow overwriting of previous triangulated data', required=False)
